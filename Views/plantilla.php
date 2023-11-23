@@ -46,7 +46,7 @@
 	  </nav>
     <!-- END nav -->
     
-    <div class="hero-wrap ftco-degree-bg" style="background-image: url('img/SLIDE4b.jpg');" data-stellar-background-ratio="0.5">
+    <div class="hero-wrap ftco-degree-bg" style="background-image: url('Views/assets/img/SLIDE4b.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text justify-content-start align-items-center justify-content-center">
@@ -73,7 +73,7 @@
     <section class="ftco-section ftco-about">
 			<div class="container">
 				<div class="row no-gutters">
-					<div class="col-md-6 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(img/fondo33.jpg); ">
+					<div class="col-md-6 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(Views/assets/img/fondo33.jpg); ">
 					</div>
 					<div class="col-md-6 wrap-about ftco-animate">
 	          <div class="heading-section heading-section-white pl-md-5">
