@@ -8374,6 +8374,47 @@ h1, h2, h3, h4, h5,
     .hero-wrap.hero-wrap-2 .slider-text {
       height: 600px !important; }
 
+/**/
+
+/* Estilos generales para el contenedor con fondo de imagen */
+.background-container {
+  background: url('./Views/assets/img/SLIDE4b.jpg') center center no-repeat; /* Cambia la ruta de la imagen según tu proyecto */
+  background-size: cover;
+  height: 100vh; /* El 100% de la altura de la ventana gráfica (viewport height) */
+  width: 100%; /* El 100% del ancho del contenedor padre */
+  color: #fff; /* Cambia el color del texto según tus preferencias */
+  position: relative;
+}
+
+/* Contenedor adicional para el texto */
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Estilos para el texto */
+.text-container h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+/* Media query para mejorar la resolución en dispositivos de alta densidad de píxeles */
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+       only screen and (min--moz-device-pixel-ratio: 2), 
+       only screen and (-o-min-device-pixel-ratio: 2/1), 
+       only screen and (min-resolution: 192dpi), 
+       only screen and (min-resolution: 2dppx) {
+  .background-container {
+    background-image: url('./Views/assets/img/SLIDE4b.jpg'); /* Cambia la ruta de la imagen Retina según tu proyecto */
+  }
+}
+
+/**/
+
+
 .slider-text {
   height: 850px; }
   @media (max-width: 991.98px) {
