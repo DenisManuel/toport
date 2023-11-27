@@ -1,83 +1,83 @@
-<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/bg_3.jpg');"
-    data-stellar-background-ratio="0.5">
-    <div class="overlay"></div>
-    <div class="container">
-        <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
-            <div class="col-md-9 ftco-animate pb-5">
-                <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i
-                                class="ion-ios-arrow-forward"></i></a></span> <span>Services <i
-                            class="ion-ios-arrow-forward"></i></span></p>
-                <h1 class="mb-3 bread">Our Services</h1>
-            </div>
-        </div>
-    </div>
-</section>
+<section class="ftco-counter ftco-section " id="enunciados">
+    <style>
+    .card {
+      border: none;
+      transition: transform 0.3s;
+    }
 
-<section class="ftco-section">
-    <div class="container">
-        <div class="row justify-content-center mb-5">
-            <div class="col-md-7 text-center heading-section ftco-animate">
-                <span class="subheading">Services</span>
-                <h2 class="mb-3">Our Latest Services</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="services services-2 w-100 text-center">
-                    <div class="icon d-flex align-items-center justify-content-center"><span
-                            class="flaticon-route"></span></div>
-                    <div class="text w-100">
-                        <h3 class="heading mb-2">Wedding Ceremony</h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="services services-2 w-100 text-center">
-                    <div class="icon d-flex align-items-center justify-content-center"><span
-                            class="flaticon-route"></span></div>
-                    <div class="text w-100">
-                        <h3 class="heading mb-2">City Transfer</h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="services services-2 w-100 text-center">
-                    <div class="icon d-flex align-items-center justify-content-center"><span
-                            class="flaticon-route"></span></div>
-                    <div class="text w-100">
-                        <h3 class="heading mb-2">Airport Transfer</h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="services services-2 w-100 text-center">
-                    <div class="icon d-flex align-items-center justify-content-center"><span
-                            class="flaticon-route"></span></div>
-                    <div class="text w-100">
-                        <h3 class="heading mb-2">Whole City Tour</h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    .card:hover {
+      transform: scale(1.05);
+    }
 
-<section class="ftco-section ftco-intro" style="background-image: url(images/bg_3.jpg);">
-    <div class="overlay"></div>
+    .card-header {
+      background-color: #01d28e; 
+      color: #ffffff; 
+    }
+
+    
+    #acordeon .card {
+      border: none;
+      margin-bottom: 10px;
+    }
+
+    #acordeon .card-header {
+      background-color: #01d28e;
+    }
+
+    #acordeon .card-header .boton{
+      color: #ffffff;
+    }
+
+    #acordeon .card-body {
+      background-color: #f1f1f1;
+    }
+  </style>
     <div class="container">
-        <div class="row justify-content-end">
-            <div class="col-md-6 heading-section heading-section-white ftco-animate">
-                <h2 class="mb-3">Do You Want To Earn With Us? So Don't Be Late.</h2>
-                <a href="#" class="btn btn-primary btn-lg">Become A Driver</a>
-            </div>
+    <h2>SERVICES</h2><br>
+    <div class="row">
+
+    <?php
+    $arrayServices = ["SHARED SHUTTLE SERVICE", "TRANSFER FROM PORT OF MIAMI", "PORT OF MIAMI TO MIAMI AIRPORT","PORT OF MIAMI TO AIRPORT", "CRUISE PORT TO AIRPORT", "CRUISE PORT TO MIA"];
+    
+    foreach ($arrayServices as $services) {
+      echo'<div class="col-md-4 mb-4">
+           <div class="card">';
+          echo'<div class="card-header">'.$services.'</div>';
+          echo'<div class="card-body">
+            <h5 class="card-title">details</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio assumenda voluptatem!</p>
+          </div>
         </div>
+      </div>';
+    }
+
+    ?>
+      
+    </div><!--  -->
+
+    <?php
+    $arrayServices2 = ["CRUISE PORT TO MIAMI INTERNATIONAL AIRPORT","TRANSFER FROM THE PORT OF MIAMI","TRANSPORTATION FROM THE PORT OF MIAMI","TRANSFER FROM CRUISER PORT","TRANSFER FROM MIAMI CRUISE PORT","SHARED SHUTTLE SERVICES FROM PORT OF MIAMI","ROYAL CARIBBEAN CRUISE POR TRANSFERS","TRANSFERS FROM ROYAL CARIBBEAN","NORWEGIAN CRUISE TRANSPORTATIONS","CARNIVAL CRUISES TRANSPORTATION SERVICES","CARNIVAL CRUISES SHUTTLE SERVICES","CARNIVAL CRUISES PORT TRANSFERS"];
+    foreach($arrayServices2 as $services2){
+      echo'<div id="acordeon">
+      <div class="card">
+        <div class="card-header" id="enunciado11">
+          <h5 class="mb-0">
+            <button class="btn btn-link boton" data-toggle="collapse" data-target="#collapseEnunciado11" aria-expanded="true" aria-controls="collapseEnunciado11">'
+            .$services2.
+            '</button>
+          </h5>
+        </div>
+
+        <div id="collapseEnunciado11" class="collapse hide" aria-labelledby="enunciado11" data-parent="#acordeon">
+          <div class="card-body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio assumenda voluptatem!
+          </div>
+        </div>
+      </div>
+    </div>';
+    }
+    ?>
+
+    
     </div>
-</section>
+  </section>
