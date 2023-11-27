@@ -7,15 +7,15 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+	          <li class="nav-item active"><a href="home" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="about" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="services" class="nav-link">Services</a></li>
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
 
-      <div class="hero-wrap ftco-degree-bg" style="background-image: url('<?= RUTAASSETS ?>img/SLIDE4b.jpg');" data-stellar-background-ratio="0.5">
+	  <div class="hero-wrap ftco-degree-bg" style="background-image: url('<?= RUTAASSETS ?>img/SLIDE4b.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text justify-content-start align-items-center justify-content-center">
@@ -29,4 +29,5 @@
         </div>
       </div>
     </div>
+	
     <!-- END nav -->

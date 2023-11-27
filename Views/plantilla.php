@@ -6,7 +6,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="Views/assets/icon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+   
 
     <link rel="stylesheet" href="Views/assets/css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="Views/assets/css/animate.css">
@@ -60,8 +60,6 @@
   <script src="Views/assets/js/bootstrap-datepicker.js"></script>
   <script src="Views/assets/js/jquery.timepicker.min.js"></script>
   <script src="Views/assets/js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="Views/assets/js/google-map.js"></script>
   <script src="Views/assets/js/main.js"></script>
     
   </body>
