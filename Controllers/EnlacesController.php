@@ -6,7 +6,7 @@ public function enlaces(){
 
     if(isset($_GET['ruta'])){
         try{
-        $url=filter_input(INPUT_GET,'action',FILTER_SANITIZE_URL);
+        $url=filter_input(INPUT_GET,'ruta',FILTER_SANITIZE_URL);
         $url=explode('/',$url);
         $url=array_filter($url); 
     
