@@ -62,10 +62,17 @@
       ],
   ];
 
+  $iconos = array('flaticon-transportation', 'flaticon-route', 'flaticon-wedding-car', 'flaticon-car');
+
   foreach ($arrayServices as $servicio => $detalles) {
+
+    $indiceAleatorio = array_rand($iconos);
+    // Obtener el nombre del icono aleatorio
+    $iconoAleatorio = $iconos[$indiceAleatorio];
+
     echo '<div class="col-md-6 tarjeta mb-5">
             <div class="services services-2 w-100 text-center shadow py-3 px-2 border border-success">
-              <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-transportation"></span></div>
+              <div class="icon d-flex align-items-center justify-content-center"><span class="'.$iconoAleatorio.'"></span></div>
               <div class="text w-100">
                 <h4 class="heading mb-2">'.$servicio.'</h4>
                 <p class="text-justify">'.substr($detalles["descripcion"], 0, 150).'... 
