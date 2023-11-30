@@ -67,7 +67,6 @@
   foreach ($arrayServices as $servicio => $detalles) {
 
     $indiceAleatorio = array_rand($iconos);
-    // Obtener el nombre del icono aleatorio
     $iconoAleatorio = $iconos[$indiceAleatorio];
 
     echo '<div class="col-md-6 tarjeta mb-5">
