@@ -79,7 +79,7 @@
 				<div class="row justify-content-end">
 					<div class="col-md-6 heading-section heading-section-white ftco-animate">
             <h2 class="mb-3">Explore hassle-free travel with us! Get a quote now for competitive and transparent transportation prices.</h2>
-            <a href="#" class="btn btn-primary btn-lg">Get Quote</a>
+            <a href="quote" class="btn btn-primary btn-lg">Get Quote</a>
           </div>
 				</div>
 			</div>

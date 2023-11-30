@@ -1,3 +1,17 @@
+
+<style>
+.bheader {
+  background-image: url('<?=RUTAASSETS?>img/header.jpg');
+ 
+}
+
+@media only screen and (max-width: 767px) {
+  .bheader {
+    background-image: url('<?=RUTAASSETS?>img/header2.jpg');
+  }
+}
+</style>
+
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
 	      <a class="navbar-brand" href="index.html">SHUTTLE TO<span> PORT MIAMI</span></a>
@@ -15,7 +29,7 @@
 	    </div>
 	  </nav>
 
-	  <div class="hero-wrap ftco-degree-bg" style="background-image: url('<?= RUTAASSETS ?>img/SLIDE4b.jpg');" data-stellar-background-ratio="0.5">
+	  <div class="hero-wrap ftco-degree-bg bheader"  data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text justify-content-start align-items-center justify-content-center">
